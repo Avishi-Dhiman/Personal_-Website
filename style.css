@@ -53,7 +53,7 @@ p {
     list-style: none;
     top:0px;
     right:30px;
-    position: absolute;
+    position: fixed;
     cursor:pointer;
 }
 
@@ -70,4 +70,17 @@ p {
 .link:hover{
    background-color: crimson;
    color:coral; 
+}
+
+a{
+    text-decoration:none;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+.article:hover{
+    color:deeppink;
 }
